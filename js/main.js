@@ -9,15 +9,13 @@ let arrayMembri =
     InizializzaMembro("Angela Lopez","Social Media Manager","./img/angela-lopez-social-media-manager.jpg"),
     InizializzaMembro("Scott Estrada","Developer","./img/scott-estrada-developer.jpg"),
     InizializzaMembro("Barbara Ramos","Graphic Designer","./img/barbara-ramos-graphic-designer.jpg")
-
 ];
 
-
+//Stampa Array in console 
 StampaArrayConOggetti(arrayMembri);
+
+//Inserisce e fa visualizzare gli array in HTML
 InserisciArrayOggettiInHTML(arrayMembri);
-
-
-
 
 //----------------FUNZIONI--------------------
 function InizializzaMembro(nomeMembro,ruoloMembro,fotoMembro){
